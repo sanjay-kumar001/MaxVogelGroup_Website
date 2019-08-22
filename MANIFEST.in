@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mvg_website *.css
+recursive-include mvg_website *.csv
+recursive-include mvg_website *.html
+recursive-include mvg_website *.ico
+recursive-include mvg_website *.js
+recursive-include mvg_website *.json
+recursive-include mvg_website *.md
+recursive-include mvg_website *.png
+recursive-include mvg_website *.py
+recursive-include mvg_website *.svg
+recursive-include mvg_website *.txt
+recursive-exclude mvg_website *.pyc
